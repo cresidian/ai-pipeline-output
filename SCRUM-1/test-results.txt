@@ -1,0 +1,21 @@
+
+> test
+> vitest run --reporter=verbose
+
+
+ RUN  v1.6.1 /Users/clustox/ClaudeProjects/ZeroHumanTouchAssignment/pipeline/output/SCRUM-1/app
+
+ ✓ app.test.js > Todo App > parses empty todos from localStorage
+ ✓ app.test.js > Todo App > adds a todo item
+ ✓ app.test.js > Todo App > ignores empty or whitespace-only input
+ ✓ app.test.js > Todo App > marks a todo as complete
+ ✓ app.test.js > Todo App > toggles a completed todo back to incomplete
+ ✓ app.test.js > Todo App > deletes a todo item
+ ✓ app.test.js > Todo App > counts remaining incomplete items
+ ✓ app.test.js > Todo App > count is zero when all todos are done
+
+ Test Files  1 passed (1)
+      Tests  8 passed (8)
+   Start at  17:36:45
+   Duration  166ms (transform 14ms, setup 0ms, collect 10ms, tests 2ms, environment 0ms, prepare 41ms)
+
